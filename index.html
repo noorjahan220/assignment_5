@@ -74,7 +74,7 @@
     </header>
     <main>
         <section id="card-section" class="">
-            <div id="card-1" class="  hero bg-base-200 p-4 m-3">
+            <div  class="  hero bg-base-200 p-4 m-3">
                 <div class="hero-content flex-col lg:flex-row">
                     <img src="assets/noakhali.png" class="lg:w-[50%] rounded-lg shadow-2xl" />
                     <div class="mx-auto">
@@ -93,57 +93,58 @@
     
                         <input id="input-add-money" type="text" placeholder="Write Donation Amount"
                             class="input input-bordered w-full max-w-xs"><br><br>
-                        <button id="donate-btn" onclick="openModal()" class="w-full max-w-xs bg-btn-color px-6 py-2">Donate Now</button>
+                        <button  id="donate-btn" onclick="openModal()" class="w-full max-w-xs bg-btn-color px-6 py-2">Donate Now</button>
     
                     </div>
                 </div>
             </div>
-            <div id="card-2" class=" hero bg-base-200 p-4 m-3">
+            
+            <div  class="  hero bg-base-200 p-4 m-3">
                 <div class="hero-content flex-col lg:flex-row">
                     <img src="assets/feni.png" class="lg:w-[50%] rounded-lg shadow-2xl" />
                     <div class="mx-auto">
                         <div>
-                            <button id="account-balance" class="flex btn gap-1 bg-btn-color"><img src="assets/coin.png"
+                            <button id="account-balance-two" class="flex btn gap-1 bg-btn-color"><img src="assets/coin.png"
                                     alt="">0<p>BDT</p></button>
-    
+        
                         </div>
-                        <h1 class="text-[20px] font-bold">Donate for Flood Relief in Feni,Bangladesh</h1>
+                        <h1 class="text-[20px] font-bold">Donate for Flood at Noakhali, Bangladesh</h1>
                         <p class="py-6 text-[16px]">
-                            The recent floods in Feni have devastated local communities, leading to severe disruption and
-                            loss. Your generous donation will help provide immediate aid, including food, clean water, and
-                            medical supplies, to those affected by this calamity. Together, we can offer crucial support and
-                            help rebuild lives in the aftermath of this disaster. Every contribution counts towards making a
-                            real difference. Please consider donating today to assist those in urgent need.
+                            The recent floods in Feni have devastated local communities, leading to severe disruption and loss. Your generous donation will help provide immediate aid, including food, clean water, and medical supplies, to those affected by this calamity. Together, we can offer crucial support and help rebuild lives in the aftermath of this disaster. Every contribution counts towards making a real difference. Please consider donating today to assist those in urgent need.
                         </p>
-    
-                        <input id="input-add-money" type="text" placeholder="Write Donation Amount"
+        
+                        <input id="input-add-money-two" type="text" placeholder="Write Donation Amount"
                             class="input input-bordered w-full max-w-xs"><br><br>
-                        <button  onclick="openModal()" id="donate-btn" class="w-full max-w-xs bg-btn-color px-6 py-2">Donate Now</button>
-    
+                        <button  id="donate-btn-two" onclick= "openModal()" class="w-full max-w-xs bg-btn-color px-6 py-2">Donate Now</button>
+        
                     </div>
                 </div>
             </div>
-            <div id="card-3" class=" hero bg-base-200 p-4 m-3">
+
+            
+            <div  class="  hero bg-base-200 p-4 m-3">
                 <div class="hero-content flex-col lg:flex-row">
                     <img src="assets/quota-protest.png" class="lg:w-[50%] rounded-lg shadow-2xl" />
                     <div class="mx-auto">
                         <div>
-                            <button id="account-balance" class="flex btn gap-1 bg-btn-color"><img src="assets/coin.png"
+                            <button id="account-balance-three" class="flex btn gap-1 bg-btn-color"><img src="assets/coin.png"
                                     alt="">0<p>BDT</p></button>
     
                         </div>
-                        <h1 class="text-[20px] font-bold">Aid for Injured in the Quota Movement</h1>
+                        <h1 class="text-[20px] font-bold">Donate for Flood at Noakhali, Bangladesh</h1>
                         <p class="py-6 text-[16px]">
                             The recent Quota movement has resulted in numerous injuries and significant hardship for many individuals. Your support is crucial in providing medical assistance, rehabilitation, and necessary supplies to those affected. By contributing, you help ensure that injured individuals receive the care and support they need during this challenging time. Every donation plays a vital role in alleviating their suffering and aiding in their recovery. Please consider making a donation to support these brave individuals in their time of need.
                         </p>
     
-                        <input id="input-add-money" type="text" placeholder="Write Donation Amount"
+                        <input id="input-add-money-three" type="text" placeholder="Write Donation Amount"
                             class="input input-bordered w-full max-w-xs"><br><br>
-                        <button  onclick="openModal()"  id="donate-btn" class="w-full max-w-xs bg-btn-color px-6 py-2">Donate Now</button>
+                        <button  id="donate-btn-three" onclick="openModal()" class="w-full max-w-xs bg-btn-color px-6 py-2">Donate Now</button>
     
                     </div>
                 </div>
             </div>
+
+            
             <div id="modal" >
                 <div class="modal-content ">
             <h1 class="text-3xl font-extrabold mb-3">Congrates!</h1>
@@ -159,14 +160,23 @@
         <section id="history-section" class="hidden">
             <div>
                 <h2>Donation History</h2>
-        <ul id="history-list"></ul>
+                <div id="donation-history"></div>
+                <div id="donation-history-one"></div>
+                <div id="donation-history-two"></div>
             </div>
+            
         </section>
     </main>
     
 
 
 <script src="js/home.js"></script>
+
+<script>
+
+</script>
+
 </body>
 
 </html>
+
