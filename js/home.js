@@ -27,7 +27,7 @@ document.getElementById('donate-btn').addEventListener('click', function () {
         const div = document.createElement('div');
 
         div.innerHTML = `
-     <div class = "border-2 border-gray-900 p-4">
+     <div class = "border-2 border-gray-400 p-4 mb-2">
       <h4 class = "font-bold text-[14px]">${addMoneyNumber}Taka is Donated for famine-2024 at Feni, Bangladesh</h4>
     <p class = "font-light  text-[12px]">${date}</p>
      </div>
@@ -81,7 +81,7 @@ document.getElementById('donate-btn-two').addEventListener('click', function () 
 
         const div = document.createElement('div');
         div.innerHTML = `
-        <div class = "border-2 border-gray-900 p-4">
+        <div class = "border-2 border-gray-400 p-4 mb-2">
          <h4 class = "font-bold text-[14px]">${addMoneyInputTwoNumber} Taka is Donated for Flood Relief in Feni,Bangladesh</h4>
         <p class = "font-light  text-[12px]">${date}</p>
         </div>`
@@ -119,7 +119,7 @@ document.getElementById('donate-btn-three').addEventListener('click', function (
         const date = new Date();
         const div = document.createElement('div');
         div.innerHTML = `
-         <div class = "border-2 border-gray-900 p-4">
+         <div class = "border-2 border-gray-400 p-4 mb-2">
          <h4 class = "font-bold text-[14px]">${addMoneyInputThree}Taka is Donated for Aid for Injured in the Quota Movement, Bangladesh</h4>
         <p class = "font-light  text-[12px]">${date}</p>
         </div>`
